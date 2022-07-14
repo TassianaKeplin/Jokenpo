@@ -8,72 +8,72 @@ let jogador1 = prompt("Jogador 1, digite pedra, papel, tesoura ou pistola.")
             //PISTOLA 3
 
     if(jogador2==0){
-        alert("O cumputador escolheu pedra!")
+        alert("Você escolheu " + jogador1 + " e o cumputador escolheu pedra!")
     } else if(jogador2==1){
-        alert("O computador escolheu papel!")
+        alert("Você escolheu " + jogador1 + " e o computador escolheu papel!")
     } else if(jogador2==2){
-        alert("O computador escolheu tesoura!")
+        alert("Você escolheu " + jogador1 + " e o computador escolheu tesoura!")
     } else{
-        alert("O computador escolheu pistola!")
+        alert("Você escolheu " + jogador1 + " e o computador escolheu pistola!")
     }
             if (jogador1 == "pedra"){
                 if (jogador2 == 0){
-                    alert("empate")
+                    alert("Empate.")
                 }
                 else if(jogador2 == 1){
-                    alert("Jogador 2 vence! Papel cobre a pedra")
+                    alert("Computador vence! Papel cobre a pedra!")
                 }
                 else if(jogador2 == 2){
-                    alert("Jogador 1 ganha! Pedra quebra a tesoura")
+                    alert("Você vence! Pedra quebra a tesoura!")
                 }
                 else if(jogador2 == 3){
-                    alert("Jogador 2 ganha! pistola atira no jogador 1")
+                    alert("Computador vence! A pistola atira em você!")
                 }
             }
 
             if (jogador1 == "papel"){
                 if (jogador2 == 0){
-                    alert("Jogador 1 vence! Papel cobre a pedra")
+                    alert("Você vence! Papel cobre a pedra!")
                 }
                 else if(jogador2 == 1){
-                    alert("empate")
+                    alert("Empate.")
                 }
                 else if(jogador2 == 2){
-                    alert("Jogador 2 ganha! Tesoura corta o papel")
+                    alert("Computador vence! Tesoura corta o papel!")
                 }
                 else if(jogador2 == 3){
-                    alert("Jogador 2 ganha! pistola atira no jogador 1")
+                    alert("Computador vence! A pistola atira em você!")
                 }
             }
 
             if (jogador1 == "tesoura"){
                 if (jogador2 == 0){
-                    alert("Jogador 2 vence! pedra quebra tesoura")
+                    alert("Computador vence! pedra quebra tesoura!")
                 }
                 else if(jogador2 == 1){
-                    alert("Jogador 1 ganha! Tesoura corta o papel")
+                    alert("Você vence! Tesoura corta o papel!")
                 }
                 else if(jogador2 == 2){
-                    alert("empate")
+                    alert("Empate.")
                 }
                 else if(jogador2 == 3){
-                    alert("Jogador 2 ganha! pistola atira no jogador 1")
+                    alert("Computador vence! A pistola atira em você!")
                 }
             }
 
 
             if (jogador1 == "pistola"){
                 if (jogador2 == 0){
-                    alert("Jogador 1 atira no computador. Jogador 1 vence!")
+                    alert("Você atira no computador. Você vence!")
                 }
                 else if(jogador2 == 1){
-                    alert("Jogador 1 atira no computador. Jogador 1 vence!")
+                    alert("Você atira no computador. Você vence!")
                 }
                 else if(jogador2 == 2){
-                    alert("Jogador 1 atira no computador. Jogador 1 vence!")
+                    alert("Você atira no computador. Você vence!")
                 }
                 else if(jogador2 == 3){
-                    alert("Jogador 1 e computador sacam suas pistolas, efetuam o disparo, as balas se batem no ar e ninguem se machuca. Ninguém perdeu hoje!")
+                    alert("Você e computador sacam suas pistolas, efetuam o disparo, as balas se batem no ar e ninguem se machuca. Ninguém perdeu hoje!")
                 }
             }
 
