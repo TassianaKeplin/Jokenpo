@@ -1,7 +1,6 @@
 let jogador1 = prompt("Jogador 1, digite pedra, papel, tesoura ou pistola.")
             let jogador2 = Math.floor (Math.random()*4)
 
-
             //PEDRA 0
             //PAPEL 1
             //TESOURA 2
@@ -48,7 +47,7 @@ let jogador1 = prompt("Jogador 1, digite pedra, papel, tesoura ou pistola.")
 
             if (jogador1 == "tesoura"){
                 if (jogador2 == 0){
-                    alert("Computador vence! pedra quebra tesoura!")
+                    alert("Computador vence! Pedra quebra tesoura!")
                 }
                 else if(jogador2 == 1){
                     alert("Você vence! Tesoura corta o papel!")
